@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    height: 180vh;
+    max-width: 100vw;
+    margin: 50px 100px;
+    border: 5px solid black;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    background-color:dimgray;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.right-side{
+background-color: white;
+width: 75%;
+}
+.left-side{
+    background-color: #3D3C3A;
+    width:25%;
+    
+}
+.left-side img{
+    
+    height: 450px;
+    width:380px;    
+    margin-top: 20px;
+    margin-right: 20px;
+}
+ .right-side p{
+display: flex;
+justify-content: start;
+margin-top:30px;
+margin-left: 10px;
+margin-right: 10px;
+color: black;
+font-size: 20px;
+font-family:fantasy;
+font-weight: 100;
+ }
+
+ .right-side hr{
+    margin-left: 40px;
+    background-color: yellow;
+    height: 3px;
+ }
+ .right-side >ul>li{
+    margin-left: 50px;
+    list-style: disc;
+    color: black;
+    
+ }
+ .right-side >ul>li>progress{
+    /* display: inline-block; */
+    margin-left: 0px;
+    width: 200px;
+    height: 20px;
+    border-radius: 0%;
+    
+    
+ }
+
+ .left-side>p:first-of-type{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 100;
+
+ }
+
+ .left-side p{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: white;
+    /* font-size: 20px;
+    font-family: fantasy;
+    font-weight: 100; */
+
+ }
+
+ .contact p{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 100;
+ }
+
+ .contact li{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: white;
+
+ }
+
+ .hob p{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 100;
+ }
+
+ .hob li{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: white;
+ }
+
+ .right-side h1{
+font-size: 50px;
+margin-left: 40px;
+font-family: 'Times New Roman', Times, serif;
+ }
+
+ .right-side h5{
+    font-size: 15px;
+    margin-left: 40px;
+   
+    /* font-family: 'Times New Roman', Times, serif; */
+     }
+    
